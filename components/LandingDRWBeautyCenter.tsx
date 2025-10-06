@@ -154,7 +154,7 @@ export default function LandingDRWBeautyCenter() {
     }
 
     // Build WhatsApp message
-    const to = normalizePhone(process.env.NEXT_PUBLIC_WA_NUMBER || "62811944288"); // GANTI .env
+    const to = normalizePhone(process.env.NEXT_PUBLIC_WA_NUMBER || "6288200529584"); // GANTI .env
 
     const payload = {
       name,
@@ -226,7 +226,7 @@ export default function LandingDRWBeautyCenter() {
       });
     }
 
-    const waNumber = normalizePhone(process.env.NEXT_PUBLIC_WA_NUMBER || "62811944288");
+    const waNumber = normalizePhone(process.env.NEXT_PUBLIC_WA_NUMBER || "6288200529584");
     const message = "Halo, saya tertarik dengan program Kemitraan DRW Beauty Center";
     const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
     window.open(waUrl, '_blank');
